@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D7DD651A0CAE757A54A83EB /* Pods_MindEchoLabyrinthX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D5BB7D5F3B97B012B39D03 /* Pods_MindEchoLabyrinthX.framework */; };
+		E97DD70C2D59B2E700D2F031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD70B2D59B2E700D2F031 /* AppDelegate.swift */; };
+		E97DD70E2D59B2E700D2F031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD70D2D59B2E700D2F031 /* SceneDelegate.swift */; };
+		E97DD7102D59B2E700D2F031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD70F2D59B2E700D2F031 /* ViewController.swift */; };
+		E97DD7132D59B2E700D2F031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97DD7112D59B2E700D2F031 /* Main.storyboard */; };
+		E97DD7152D59B2E900D2F031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97DD7142D59B2E900D2F031 /* Assets.xcassets */; };
+		E97DD7182D59B2E900D2F031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97DD7162D59B2E900D2F031 /* LaunchScreen.storyboard */; };
+		E97DD7232D59B2EA00D2F031 /* MindEchoLabyrinthXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD7222D59B2EA00D2F031 /* MindEchoLabyrinthXTests.swift */; };
+		E97DD72D2D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD72C2D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.swift */; };
+		E97DD72F2D59B2EA00D2F031 /* MindEchoLabyrinthXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD72E2D59B2EA00D2F031 /* MindEchoLabyrinthXUITestsLaunchTests.swift */; };
+		E97DD73C2D59B53A00D2F031 /* LabyHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD73B2D59B53A00D2F031 /* LabyHomeVC.swift */; };
+		E97DD73E2D59B55000D2F031 /* LabyShapeRotationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD73D2D59B55000D2F031 /* LabyShapeRotationVC.swift */; };
+		E97DD7402D59B56800D2F031 /* LabyShapeMathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD73F2D59B56800D2F031 /* LabyShapeMathVC.swift */; };
+		E97DD7422D59B58A00D2F031 /* LabySettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD7412D59B58A00D2F031 /* LabySettingVC.swift */; };
+		E97DD7442D59B5A400D2F031 /* LabyAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD7432D59B5A400D2F031 /* LabyAboutVC.swift */; };
+		E97DD7462D59B5BC00D2F031 /* LabyPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD7452D59B5BC00D2F031 /* LabyPrivacyVC.swift */; };
+		E97DD7482D59B5D300D2F031 /* LabyExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DD7472D59B5D300D2F031 /* LabyExtention.swift */; };
+		E97DD74C2D59B6E500D2F031 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E97DD74B2D59B6E500D2F031 /* UIViewController+Tool.m */; };
+		E97DD74F2D59B9FE00D2F031 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E97DD74E2D59B9FE00D2F031 /* GoogleService-Info.plist */; };
+		E97DD7562D59BAB800D2F031 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E97DD7582D59BAB800D2F031 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E97DD71F2D59B2EA00D2F031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97DD7002D59B2E700D2F031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97DD7072D59B2E700D2F031;
+			remoteInfo = MindEchoLabyrinthX;
+		};
+		E97DD7292D59B2EA00D2F031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97DD7002D59B2E700D2F031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97DD7072D59B2E700D2F031;
+			remoteInfo = MindEchoLabyrinthX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5D5BB7D5F3B97B012B39D03 /* Pods_MindEchoLabyrinthX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindEchoLabyrinthX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF332ECDAF25FADBBFC15246 /* Pods-MindEchoLabyrinthX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindEchoLabyrinthX.release.xcconfig"; path = "Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX.release.xcconfig"; sourceTree = "<group>"; };
+		E2336C6F18D121DD5B39DF97 /* Pods-MindEchoLabyrinthX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindEchoLabyrinthX.debug.xcconfig"; path = "Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX.debug.xcconfig"; sourceTree = "<group>"; };
+		E97DD7082D59B2E700D2F031 /* MindEchoLabyrinthX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindEchoLabyrinthX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97DD70B2D59B2E700D2F031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E97DD70D2D59B2E700D2F031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E97DD70F2D59B2E700D2F031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E97DD7122D59B2E700D2F031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E97DD7142D59B2E900D2F031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E97DD7172D59B2E900D2F031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E97DD7192D59B2E900D2F031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97DD71E2D59B2EA00D2F031 /* MindEchoLabyrinthXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindEchoLabyrinthXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97DD7222D59B2EA00D2F031 /* MindEchoLabyrinthXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindEchoLabyrinthXTests.swift; sourceTree = "<group>"; };
+		E97DD7282D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindEchoLabyrinthXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97DD72C2D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindEchoLabyrinthXUITests.swift; sourceTree = "<group>"; };
+		E97DD72E2D59B2EA00D2F031 /* MindEchoLabyrinthXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindEchoLabyrinthXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E97DD73B2D59B53A00D2F031 /* LabyHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyHomeVC.swift; sourceTree = "<group>"; };
+		E97DD73D2D59B55000D2F031 /* LabyShapeRotationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyShapeRotationVC.swift; sourceTree = "<group>"; };
+		E97DD73F2D59B56800D2F031 /* LabyShapeMathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyShapeMathVC.swift; sourceTree = "<group>"; };
+		E97DD7412D59B58A00D2F031 /* LabySettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabySettingVC.swift; sourceTree = "<group>"; };
+		E97DD7432D59B5A400D2F031 /* LabyAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyAboutVC.swift; sourceTree = "<group>"; };
+		E97DD7452D59B5BC00D2F031 /* LabyPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyPrivacyVC.swift; sourceTree = "<group>"; };
+		E97DD7472D59B5D300D2F031 /* LabyExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyExtention.swift; sourceTree = "<group>"; };
+		E97DD7492D59B6E500D2F031 /* MindEchoLabyrinthX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MindEchoLabyrinthX-Bridging-Header.h"; sourceTree = "<group>"; };
+		E97DD74A2D59B6E500D2F031 /* UIViewController+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
+		E97DD74B2D59B6E500D2F031 /* UIViewController+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
+		E97DD74D2D59B76E00D2F031 /* MindEchoLabyrinthX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindEchoLabyrinthX.entitlements; sourceTree = "<group>"; };
+		E97DD74E2D59B9FE00D2F031 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E97DD7502D59BA9200D2F031 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		E97DD7512D59BA9200D2F031 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E97DD7522D59BAA100D2F031 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		E97DD7532D59BAA100D2F031 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E97DD7572D59BAB800D2F031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E97DD7592D59BABB00D2F031 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E97DD75A2D59BABB00D2F031 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97DD7052D59B2E700D2F031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7DD651A0CAE757A54A83EB /* Pods_MindEchoLabyrinthX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97DD71B2D59B2EA00D2F031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97DD7252D59B2EA00D2F031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1F035F150F509A6DB4C6C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5BB7D5F3B97B012B39D03 /* Pods_MindEchoLabyrinthX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6825C39149E6B9291B232827 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2336C6F18D121DD5B39DF97 /* Pods-MindEchoLabyrinthX.debug.xcconfig */,
+				BF332ECDAF25FADBBFC15246 /* Pods-MindEchoLabyrinthX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E97DD6FF2D59B2E700D2F031 = {
+			isa = PBXGroup;
+			children = (
+				E97DD70A2D59B2E700D2F031 /* MindEchoLabyrinthX */,
+				E97DD7212D59B2EA00D2F031 /* MindEchoLabyrinthXTests */,
+				E97DD72B2D59B2EA00D2F031 /* MindEchoLabyrinthXUITests */,
+				E97DD7092D59B2E700D2F031 /* Products */,
+				6825C39149E6B9291B232827 /* Pods */,
+				1C1F035F150F509A6DB4C6C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E97DD7092D59B2E700D2F031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97DD7082D59B2E700D2F031 /* MindEchoLabyrinthX.app */,
+				E97DD71E2D59B2EA00D2F031 /* MindEchoLabyrinthXTests.xctest */,
+				E97DD7282D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97DD70A2D59B2E700D2F031 /* MindEchoLabyrinthX */ = {
+			isa = PBXGroup;
+			children = (
+				E97DD74E2D59B9FE00D2F031 /* GoogleService-Info.plist */,
+				E97DD74D2D59B76E00D2F031 /* MindEchoLabyrinthX.entitlements */,
+				E97DD70B2D59B2E700D2F031 /* AppDelegate.swift */,
+				E97DD70D2D59B2E700D2F031 /* SceneDelegate.swift */,
+				E97DD70F2D59B2E700D2F031 /* ViewController.swift */,
+				E97DD73B2D59B53A00D2F031 /* LabyHomeVC.swift */,
+				E97DD73D2D59B55000D2F031 /* LabyShapeRotationVC.swift */,
+				E97DD73F2D59B56800D2F031 /* LabyShapeMathVC.swift */,
+				E97DD7412D59B58A00D2F031 /* LabySettingVC.swift */,
+				E97DD7432D59B5A400D2F031 /* LabyAboutVC.swift */,
+				E97DD7452D59B5BC00D2F031 /* LabyPrivacyVC.swift */,
+				E97DD7472D59B5D300D2F031 /* LabyExtention.swift */,
+				E97DD74A2D59B6E500D2F031 /* UIViewController+Tool.h */,
+				E97DD74B2D59B6E500D2F031 /* UIViewController+Tool.m */,
+				E97DD7582D59BAB800D2F031 /* Localizable.strings */,
+				E97DD7112D59B2E700D2F031 /* Main.storyboard */,
+				E97DD7142D59B2E900D2F031 /* Assets.xcassets */,
+				E97DD7162D59B2E900D2F031 /* LaunchScreen.storyboard */,
+				E97DD7192D59B2E900D2F031 /* Info.plist */,
+				E97DD7492D59B6E500D2F031 /* MindEchoLabyrinthX-Bridging-Header.h */,
+			);
+			path = MindEchoLabyrinthX;
+			sourceTree = "<group>";
+		};
+		E97DD7212D59B2EA00D2F031 /* MindEchoLabyrinthXTests */ = {
+			isa = PBXGroup;
+			children = (
+				E97DD7222D59B2EA00D2F031 /* MindEchoLabyrinthXTests.swift */,
+			);
+			path = MindEchoLabyrinthXTests;
+			sourceTree = "<group>";
+		};
+		E97DD72B2D59B2EA00D2F031 /* MindEchoLabyrinthXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E97DD72C2D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.swift */,
+				E97DD72E2D59B2EA00D2F031 /* MindEchoLabyrinthXUITestsLaunchTests.swift */,
+			);
+			path = MindEchoLabyrinthXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97DD7072D59B2E700D2F031 /* MindEchoLabyrinthX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97DD7322D59B2EA00D2F031 /* Build configuration list for PBXNativeTarget "MindEchoLabyrinthX" */;
+			buildPhases = (
+				A5F1A33A0660BA717422E772 /* [CP] Check Pods Manifest.lock */,
+				E97DD7042D59B2E700D2F031 /* Sources */,
+				E97DD7052D59B2E700D2F031 /* Frameworks */,
+				E97DD7062D59B2E700D2F031 /* Resources */,
+				46B1C90CF9B37A7318F72B5A /* [CP] Embed Pods Frameworks */,
+				D2F6494E33ABD67632E2AAF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindEchoLabyrinthX;
+			productName = MindEchoLabyrinthX;
+			productReference = E97DD7082D59B2E700D2F031 /* MindEchoLabyrinthX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E97DD71D2D59B2EA00D2F031 /* MindEchoLabyrinthXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97DD7352D59B2EA00D2F031 /* Build configuration list for PBXNativeTarget "MindEchoLabyrinthXTests" */;
+			buildPhases = (
+				E97DD71A2D59B2EA00D2F031 /* Sources */,
+				E97DD71B2D59B2EA00D2F031 /* Frameworks */,
+				E97DD71C2D59B2EA00D2F031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97DD7202D59B2EA00D2F031 /* PBXTargetDependency */,
+			);
+			name = MindEchoLabyrinthXTests;
+			productName = MindEchoLabyrinthXTests;
+			productReference = E97DD71E2D59B2EA00D2F031 /* MindEchoLabyrinthXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E97DD7272D59B2EA00D2F031 /* MindEchoLabyrinthXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97DD7382D59B2EA00D2F031 /* Build configuration list for PBXNativeTarget "MindEchoLabyrinthXUITests" */;
+			buildPhases = (
+				E97DD7242D59B2EA00D2F031 /* Sources */,
+				E97DD7252D59B2EA00D2F031 /* Frameworks */,
+				E97DD7262D59B2EA00D2F031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97DD72A2D59B2EA00D2F031 /* PBXTargetDependency */,
+			);
+			name = MindEchoLabyrinthXUITests;
+			productName = MindEchoLabyrinthXUITests;
+			productReference = E97DD7282D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E97DD7002D59B2E700D2F031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E97DD7072D59B2E700D2F031 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E97DD71D2D59B2EA00D2F031 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E97DD7072D59B2E700D2F031;
+					};
+					E97DD7272D59B2EA00D2F031 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E97DD7072D59B2E700D2F031;
+					};
+				};
+			};
+			buildConfigurationList = E97DD7032D59B2E700D2F031 /* Build configuration list for PBXProject "MindEchoLabyrinthX" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+				de,
+			);
+			mainGroup = E97DD6FF2D59B2E700D2F031;
+			productRefGroup = E97DD7092D59B2E700D2F031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97DD7072D59B2E700D2F031 /* MindEchoLabyrinthX */,
+				E97DD71D2D59B2EA00D2F031 /* MindEchoLabyrinthXTests */,
+				E97DD7272D59B2EA00D2F031 /* MindEchoLabyrinthXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97DD7062D59B2E700D2F031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97DD7562D59BAB800D2F031 /* Localizable.strings in Resources */,
+				E97DD7182D59B2E900D2F031 /* LaunchScreen.storyboard in Resources */,
+				E97DD74F2D59B9FE00D2F031 /* GoogleService-Info.plist in Resources */,
+				E97DD7152D59B2E900D2F031 /* Assets.xcassets in Resources */,
+				E97DD7132D59B2E700D2F031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97DD71C2D59B2EA00D2F031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97DD7262D59B2EA00D2F031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46B1C90CF9B37A7318F72B5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F1A33A0660BA717422E772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindEchoLabyrinthX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F6494E33ABD67632E2AAF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindEchoLabyrinthX/Pods-MindEchoLabyrinthX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97DD7042D59B2E700D2F031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97DD7442D59B5A400D2F031 /* LabyAboutVC.swift in Sources */,
+				E97DD73E2D59B55000D2F031 /* LabyShapeRotationVC.swift in Sources */,
+				E97DD7462D59B5BC00D2F031 /* LabyPrivacyVC.swift in Sources */,
+				E97DD74C2D59B6E500D2F031 /* UIViewController+Tool.m in Sources */,
+				E97DD7102D59B2E700D2F031 /* ViewController.swift in Sources */,
+				E97DD7482D59B5D300D2F031 /* LabyExtention.swift in Sources */,
+				E97DD73C2D59B53A00D2F031 /* LabyHomeVC.swift in Sources */,
+				E97DD70C2D59B2E700D2F031 /* AppDelegate.swift in Sources */,
+				E97DD7422D59B58A00D2F031 /* LabySettingVC.swift in Sources */,
+				E97DD7402D59B56800D2F031 /* LabyShapeMathVC.swift in Sources */,
+				E97DD70E2D59B2E700D2F031 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97DD71A2D59B2EA00D2F031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97DD7232D59B2EA00D2F031 /* MindEchoLabyrinthXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97DD7242D59B2EA00D2F031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97DD72F2D59B2EA00D2F031 /* MindEchoLabyrinthXUITestsLaunchTests.swift in Sources */,
+				E97DD72D2D59B2EA00D2F031 /* MindEchoLabyrinthXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E97DD7202D59B2EA00D2F031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97DD7072D59B2E700D2F031 /* MindEchoLabyrinthX */;
+			targetProxy = E97DD71F2D59B2EA00D2F031 /* PBXContainerItemProxy */;
+		};
+		E97DD72A2D59B2EA00D2F031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97DD7072D59B2E700D2F031 /* MindEchoLabyrinthX */;
+			targetProxy = E97DD7292D59B2EA00D2F031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E97DD7112D59B2E700D2F031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97DD7122D59B2E700D2F031 /* Base */,
+				E97DD7502D59BA9200D2F031 /* pt-BR */,
+				E97DD7522D59BAA100D2F031 /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E97DD7162D59B2E900D2F031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97DD7172D59B2E900D2F031 /* Base */,
+				E97DD7512D59BA9200D2F031 /* pt-BR */,
+				E97DD7532D59BAA100D2F031 /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E97DD7582D59BAB800D2F031 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97DD7572D59BAB800D2F031 /* en */,
+				E97DD7592D59BABB00D2F031 /* de */,
+				E97DD75A2D59BABB00D2F031 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E97DD7302D59B2EA00D2F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E97DD7312D59B2EA00D2F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E97DD7332D59B2EA00D2F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2336C6F18D121DD5B39DF97 /* Pods-MindEchoLabyrinthX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MindEchoLabyrinthX/MindEchoLabyrinthX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindEchoLabyrinthX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MindEcho LabyrinthX";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laby.MindEchoLabyrinthX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MindEchoLabyrinthX/MindEchoLabyrinthX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E97DD7342D59B2EA00D2F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF332ECDAF25FADBBFC15246 /* Pods-MindEchoLabyrinthX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MindEchoLabyrinthX/MindEchoLabyrinthX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindEchoLabyrinthX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MindEcho LabyrinthX";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laby.MindEchoLabyrinthX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MindEchoLabyrinthX/MindEchoLabyrinthX-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E97DD7362D59B2EA00D2F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laby.MindEchoLabyrinthXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindEchoLabyrinthX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindEchoLabyrinthX";
+			};
+			name = Debug;
+		};
+		E97DD7372D59B2EA00D2F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laby.MindEchoLabyrinthXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindEchoLabyrinthX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindEchoLabyrinthX";
+			};
+			name = Release;
+		};
+		E97DD7392D59B2EA00D2F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laby.MindEchoLabyrinthXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindEchoLabyrinthX;
+			};
+			name = Debug;
+		};
+		E97DD73A2D59B2EA00D2F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laby.MindEchoLabyrinthXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindEchoLabyrinthX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97DD7032D59B2E700D2F031 /* Build configuration list for PBXProject "MindEchoLabyrinthX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97DD7302D59B2EA00D2F031 /* Debug */,
+				E97DD7312D59B2EA00D2F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97DD7322D59B2EA00D2F031 /* Build configuration list for PBXNativeTarget "MindEchoLabyrinthX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97DD7332D59B2EA00D2F031 /* Debug */,
+				E97DD7342D59B2EA00D2F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97DD7352D59B2EA00D2F031 /* Build configuration list for PBXNativeTarget "MindEchoLabyrinthXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97DD7362D59B2EA00D2F031 /* Debug */,
+				E97DD7372D59B2EA00D2F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97DD7382D59B2EA00D2F031 /* Build configuration list for PBXNativeTarget "MindEchoLabyrinthXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97DD7392D59B2EA00D2F031 /* Debug */,
+				E97DD73A2D59B2EA00D2F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E97DD7002D59B2E700D2F031 /* Project object */;
+}

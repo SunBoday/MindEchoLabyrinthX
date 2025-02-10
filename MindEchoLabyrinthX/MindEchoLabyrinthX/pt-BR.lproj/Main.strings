@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "MindEcho LabyrinthX"; ObjectID = "536-yb-iW8"; */
+"536-yb-iW8.text" = "MindEcho LabyrinthX";
+
+/* Class = "UIButton"; normalTitle = "About US"; ObjectID = "73M-Az-g4h"; */
+"73M-Az-g4h.normalTitle" = "About US";
+
+/* Class = "UILabel"; text = "Welcome to MindEcho LabyrinthX! Test your logic with Shape Rotation and Math Challenges. Play, solve, and sharpen your thinking skills."; ObjectID = "7W2-W6-cjX"; */
+"7W2-W6-cjX.text" = "Welcome to MindEcho LabyrinthX! Test your logic with Shape Rotation and Math Challenges. Play, solve, and sharpen your thinking skills.";
+
+/* Class = "UILabel"; text = "About App"; ObjectID = "9ic-be-bIW"; */
+"9ic-be-bIW.text" = "About App";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "EBl-0p-WoY"; */
+"EBl-0p-WoY.normalTitle" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Welcome to MindEcho LabyrinthX!\nChallenge your mind with puzzles, color swaps, letter matches, and picture rearrangements. Sharpen logic, boost memory, and master every level. Play, think, win! "; ObjectID = "H1S-7b-mfK"; */
+"H1S-7b-mfK.text" = "Welcome to MindEcho LabyrinthX!\nChallenge your mind with puzzles, color swaps, letter matches, and picture rearrangements. Sharpen logic, boost memory, and master every level. Play, think, win! ";
+
+/* Class = "UITextView"; text = "MindEcho LabyrinthX\nDescription:\nMindEcho LabyrinthX is a brain-training puzzle game designed to improve logical thinking and problem-solving skills. It features two engaging game modes—Shape Rotation Challenge and Shape Math Challenge. Players must identify and analyze shapes while solving timed puzzles, making the game both educational and entertaining.\nHow to Play:\nShape Rotation Challenge\n\t•\tA randomly rotated shape appears on the screen.\n\t•\tIdentify and select the correct shape name from the given options.\n\t•\tEarn points for correct answers, and lose points for incorrect ones.\n\t•\tThe faster you answer, the higher your score.\nShape Math Challenge\n\t•\tA shape-related math question is displayed.\n\t•\tChoose the correct shape that matches the given condition.\n\t•\tEach correct answer increases the score, while wrong answers reduce it.\n\t•\tThe difficulty level increases as you progress.\nBenefits:\n\t•\tEnhances logical reasoning and problem-solving skills.\n\t•\tImproves shape recognition and mathematical understanding.\n\t•\tEncourages quick thinking and decision-making.\n\t•\tEngaging and interactive challenges for all ages.\n\t•\tA fun way to develop cognitive skills through gameplay.\nMindEcho LabyrinthX provides a stimulating challenge for players who enjoy puzzles and logic-based games.\n"; ObjectID = "PFB-af-8en"; */
+"PFB-af-8en.text" = "MindEcho LabyrinthX\nDescription:\nMindEcho LabyrinthX is a brain-training puzzle game designed to improve logical thinking and problem-solving skills. It features two engaging game modes—Shape Rotation Challenge and Shape Math Challenge. Players must identify and analyze shapes while solving timed puzzles, making the game both educational and entertaining.\nHow to Play:\nShape Rotation Challenge\n\t•\tA randomly rotated shape appears on the screen.\n\t•\tIdentify and select the correct shape name from the given options.\n\t•\tEarn points for correct answers, and lose points for incorrect ones.\n\t•\tThe faster you answer, the higher your score.\nShape Math Challenge\n\t•\tA shape-related math question is displayed.\n\t•\tChoose the correct shape that matches the given condition.\n\t•\tEach correct answer increases the score, while wrong answers reduce it.\n\t•\tThe difficulty level increases as you progress.\nBenefits:\n\t•\tEnhances logical reasoning and problem-solving skills.\n\t•\tImproves shape recognition and mathematical understanding.\n\t•\tEncourages quick thinking and decision-making.\n\t•\tEngaging and interactive challenges for all ages.\n\t•\tA fun way to develop cognitive skills through gameplay.\nMindEcho LabyrinthX provides a stimulating challenge for players who enjoy puzzles and logic-based games.\n";
+
+/* Class = "UIButton"; normalTitle = "Setting"; ObjectID = "Ux1-tM-dpn"; */
+"Ux1-tM-dpn.normalTitle" = "Setting";
+
+/* Class = "UILabel"; text = "MindEcho LabyrinthX"; ObjectID = "are-3K-Emz"; */
+"are-3K-Emz.text" = "MindEcho LabyrinthX";
+
+/* Class = "UIButton"; normalTitle = "Shape Rotation Challenge"; ObjectID = "bO8-RU-ewe"; */
+"bO8-RU-ewe.normalTitle" = "Shape Rotation Challenge";
+
+/* Class = "UILabel"; text = "MindEcho LabyrinthX"; ObjectID = "dBw-fO-yz4"; */
+"dBw-fO-yz4.text" = "MindEcho LabyrinthX";
+
+/* Class = "UIButton"; normalTitle = "Shape Math Challenge"; ObjectID = "gHu-CL-eYf"; */
+"gHu-CL-eYf.normalTitle" = "Shape Math Challenge";
+
+/* Class = "UIButton"; normalTitle = "Start App"; ObjectID = "iaj-5i-2fu"; */
+"iaj-5i-2fu.normalTitle" = "Start App";
+
+/* Class = "UIButton"; normalTitle = "Share App"; ObjectID = "rrv-gW-jhU"; */
+"rrv-gW-jhU.normalTitle" = "Share App";
+
+/* Class = "UIButton"; normalTitle = "Rate App"; ObjectID = "s5O-YV-LT4"; */
+"s5O-YV-LT4.normalTitle" = "Rate App";

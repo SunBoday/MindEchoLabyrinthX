@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TCh-1h-ccW">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Laby SettingVC-->
+        <scene sceneID="YOh-xN-Z17">
+            <objects>
+                <viewController storyboardIdentifier="LabySettingVC" id="3lo-Xo-TXi" customClass="LabySettingVC" customModule="MindEchoLabyrinthX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3l6-kS-8F1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="n6g-lm-gik">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0pu-pR-erv">
+                                <rect key="frame" x="71.666666666666686" y="107.33333333333331" width="250" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="XRZ-Ec-2CO"/>
+                                    <constraint firstAttribute="height" constant="200" id="tQ7-RU-4jS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About App" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ic-be-bIW">
+                                <rect key="frame" x="20" y="60" width="353" height="42.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MindEcho LabyrinthX" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="536-yb-iW8">
+                                <rect key="frame" x="40" y="315.33333333333331" width="313" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0Li-aO-9g7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kic-dE-2D3">
+                                <rect key="frame" x="10" y="405.33333333333326" width="363" height="356.66666666666674"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="73M-Az-g4h">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="356.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="About US"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="JsJ-ou-lYC" kind="show" id="83T-pb-7TJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EBl-0p-WoY">
+                                        <rect key="frame" x="122.66666666666666" y="0.0" width="117.66666666666666" height="356.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Privacy Policy"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Era-cV-pAr" kind="show" id="ko6-G2-bfX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="s5O-YV-LT4">
+                                        <rect key="frame" x="245.33333333333334" y="0.0" width="117.66666666666666" height="356.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Rate App"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnRate:" destination="3lo-Xo-TXi" eventType="touchUpInside" id="kqf-d6-sue"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="rrv-gW-jhU">
+                                <rect key="frame" x="96.666666666666686" y="782" width="200" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DLx-Ue-YyN"/>
+                                    <constraint firstAttribute="width" constant="200" id="pw5-Rd-HJv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Share App"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="share:" destination="3lo-Xo-TXi" eventType="touchUpInside" id="A2u-de-CWA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v5N-Ua-VXU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rrv-gW-jhU" firstAttribute="top" secondItem="kic-dE-2D3" secondAttribute="bottom" constant="20" id="0hB-kx-sMr"/>
+                            <constraint firstAttribute="trailing" secondItem="9ic-be-bIW" secondAttribute="trailing" constant="20" id="0nq-Oi-EDb"/>
+                            <constraint firstAttribute="bottom" secondItem="n6g-lm-gik" secondAttribute="bottom" id="65r-tF-ewJ"/>
+                            <constraint firstItem="rrv-gW-jhU" firstAttribute="centerX" secondItem="3l6-kS-8F1" secondAttribute="centerX" id="8UA-u2-0sB"/>
+                            <constraint firstAttribute="trailing" secondItem="536-yb-iW8" secondAttribute="trailing" constant="40" id="8ok-4x-RPs"/>
+                            <constraint firstAttribute="bottom" secondItem="rrv-gW-jhU" secondAttribute="bottom" constant="20" id="8zi-mF-J65"/>
+                            <constraint firstItem="9ic-be-bIW" firstAttribute="leading" secondItem="3l6-kS-8F1" secondAttribute="leading" constant="20" id="B0y-VY-4Qf"/>
+                            <constraint firstItem="n6g-lm-gik" firstAttribute="leading" secondItem="3l6-kS-8F1" secondAttribute="leading" id="DYJ-bM-eZx"/>
+                            <constraint firstAttribute="trailing" secondItem="n6g-lm-gik" secondAttribute="trailing" id="HEO-aF-VxL"/>
+                            <constraint firstItem="0pu-pR-erv" firstAttribute="top" secondItem="9ic-be-bIW" secondAttribute="bottom" constant="5" id="Pgq-eo-9Am"/>
+                            <constraint firstItem="n6g-lm-gik" firstAttribute="top" secondItem="3l6-kS-8F1" secondAttribute="top" id="VVC-26-0yL"/>
+                            <constraint firstItem="536-yb-iW8" firstAttribute="top" secondItem="0pu-pR-erv" secondAttribute="bottom" constant="8" id="VzO-5c-uHZ"/>
+                            <constraint firstItem="536-yb-iW8" firstAttribute="leading" secondItem="v5N-Ua-VXU" secondAttribute="leading" constant="40" id="a8K-YW-PkS"/>
+                            <constraint firstItem="kic-dE-2D3" firstAttribute="leading" secondItem="3l6-kS-8F1" secondAttribute="leading" constant="10" id="bWb-n5-GLX"/>
+                            <constraint firstItem="0pu-pR-erv" firstAttribute="centerX" secondItem="3l6-kS-8F1" secondAttribute="centerX" id="cKg-Rg-foH"/>
+                            <constraint firstItem="kic-dE-2D3" firstAttribute="top" secondItem="536-yb-iW8" secondAttribute="bottom" constant="40" id="dZB-fq-LRB"/>
+                            <constraint firstAttribute="trailing" secondItem="kic-dE-2D3" secondAttribute="trailing" constant="20" id="ieR-qV-hwp"/>
+                            <constraint firstItem="536-yb-iW8" firstAttribute="centerX" secondItem="3l6-kS-8F1" secondAttribute="centerX" id="zWz-jX-hPP"/>
+                            <constraint firstItem="9ic-be-bIW" firstAttribute="top" secondItem="3l6-kS-8F1" secondAttribute="top" constant="60" id="zzo-DE-PIh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2yJ-4m-eiM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SCf-mv-h3g" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="776"/>
+        </scene>
+        <!--Laby AboutVC-->
+        <scene sceneID="QbW-b4-tR2">
+            <objects>
+                <viewController storyboardIdentifier="LabyAboutVC" id="JsJ-ou-lYC" customClass="LabyAboutVC" customModule="MindEchoLabyrinthX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WCm-U8-tOB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="sQD-f6-WpW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PFB-af-8en">
+                                <rect key="frame" x="16" y="103" width="361" height="729"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">MindEcho LabyrinthX
+Description:
+MindEcho LabyrinthX is a brain-training puzzle game designed to improve logical thinking and problem-solving skills. It features two engaging game modes—Shape Rotation Challenge and Shape Math Challenge. Players must identify and analyze shapes while solving timed puzzles, making the game both educational and entertaining.
+How to Play:
+Shape Rotation Challenge
+	•	A randomly rotated shape appears on the screen.
+	•	Identify and select the correct shape name from the given options.
+	•	Earn points for correct answers, and lose points for incorrect ones.
+	•	The faster you answer, the higher your score.
+Shape Math Challenge
+	•	A shape-related math question is displayed.
+	•	Choose the correct shape that matches the given condition.
+	•	Each correct answer increases the score, while wrong answers reduce it.
+	•	The difficulty level increases as you progress.
+Benefits:
+	•	Enhances logical reasoning and problem-solving skills.
+	•	Improves shape recognition and mathematical understanding.
+	•	Encourages quick thinking and decision-making.
+	•	Engaging and interactive challenges for all ages.
+	•	A fun way to develop cognitive skills through gameplay.
+MindEcho LabyrinthX provides a stimulating challenge for players who enjoy puzzles and logic-based games.
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fJ2-uC-mvv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PFB-af-8en" firstAttribute="leading" secondItem="WCm-U8-tOB" secondAttribute="leading" constant="16" id="9Oi-GU-Rvw"/>
+                            <constraint firstAttribute="bottom" secondItem="sQD-f6-WpW" secondAttribute="bottom" id="DR1-dI-g6T"/>
+                            <constraint firstAttribute="bottom" secondItem="PFB-af-8en" secondAttribute="bottom" constant="20" id="JSV-pp-eq9"/>
+                            <constraint firstItem="sQD-f6-WpW" firstAttribute="top" secondItem="WCm-U8-tOB" secondAttribute="top" id="WGA-62-BqS"/>
+                            <constraint firstItem="sQD-f6-WpW" firstAttribute="leading" secondItem="WCm-U8-tOB" secondAttribute="leading" id="a9t-P2-ejx"/>
+                            <constraint firstItem="PFB-af-8en" firstAttribute="top" secondItem="fJ2-uC-mvv" secondAttribute="top" id="cyM-LZ-rRH"/>
+                            <constraint firstAttribute="trailing" secondItem="sQD-f6-WpW" secondAttribute="trailing" id="eUp-co-LSl"/>
+                            <constraint firstAttribute="trailing" secondItem="PFB-af-8en" secondAttribute="trailing" constant="16" id="wOH-7g-gxJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IQ4-mA-OUV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcK-Ym-hiF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1485" y="775"/>
+        </scene>
+        <!--Laby HomeVC-->
+        <scene sceneID="4r8-Ew-YVH">
+            <objects>
+                <viewController storyboardIdentifier="LabyHomeVC" id="uFq-6f-UVg" customClass="LabyHomeVC" customModule="MindEchoLabyrinthX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z4t-Mb-ECi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Sn5-LW-iqA">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-Rq-3AH">
+                                <rect key="frame" x="71.666666666666686" y="356" width="250" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="4TI-KJ-cuZ"/>
+                                    <constraint firstAttribute="width" constant="250" id="x2m-tA-xdH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7W2-W6-cjX">
+                                <rect key="frame" x="20" y="80" width="353" height="271"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <string key="text">Welcome to MindEcho LabyrinthX! Test your logic with Shape Rotation and Math Challenges. Play, solve, and sharpen your thinking skills.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MindEcho LabyrinthX" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBw-fO-yz4">
+                                <rect key="frame" x="40" y="504" width="313" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="W5O-J2-CWm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ofs-yV-771">
+                                <rect key="frame" x="10" y="574" width="363" height="204"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bO8-RU-ewe">
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="204"/>
+                                        <color key="backgroundColor" red="0.1349672398" green="0.1198064304" blue="0.47682425899999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Shape Rotation Challenge"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="gDK-dp-4Ja" kind="show" id="wME-VK-6Js"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gHu-CL-eYf">
+                                        <rect key="frame" x="184" y="0.0" width="179" height="204"/>
+                                        <color key="backgroundColor" red="0.1349672398" green="0.1198064304" blue="0.47682425899999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Shape Math Challenge"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="p7i-KN-5eF" kind="show" id="6oI-LV-Onp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ux1-tM-dpn">
+                                <rect key="frame" x="96.666666666666686" y="782" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.1349672398" green="0.1198064304" blue="0.47682425899999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="AmW-YO-DwY"/>
+                                    <constraint firstAttribute="height" constant="50" id="FDB-gA-TYr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Setting"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="3lo-Xo-TXi" kind="show" id="rCy-hC-JgB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rzt-nd-taC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Sn5-LW-iqA" secondAttribute="trailing" id="0jo-an-Hhw"/>
+                            <constraint firstItem="dBw-fO-yz4" firstAttribute="top" secondItem="rFe-Rq-3AH" secondAttribute="bottom" constant="8" id="2GF-C5-mG5"/>
+                            <constraint firstItem="dBw-fO-yz4" firstAttribute="leading" secondItem="Rzt-nd-taC" secondAttribute="leading" constant="40" id="70G-ch-Zuq"/>
+                            <constraint firstAttribute="trailing" secondItem="ofs-yV-771" secondAttribute="trailing" constant="20" id="APs-s4-1y3"/>
+                            <constraint firstItem="rFe-Rq-3AH" firstAttribute="centerY" secondItem="z4t-Mb-ECi" secondAttribute="centerY" id="AvR-NN-M6t"/>
+                            <constraint firstItem="ofs-yV-771" firstAttribute="leading" secondItem="z4t-Mb-ECi" secondAttribute="leading" constant="10" id="BIj-oz-3kf"/>
+                            <constraint firstItem="Ux1-tM-dpn" firstAttribute="centerX" secondItem="z4t-Mb-ECi" secondAttribute="centerX" id="Hhz-oO-AFC"/>
+                            <constraint firstItem="ofs-yV-771" firstAttribute="top" secondItem="dBw-fO-yz4" secondAttribute="bottom" constant="20" id="JP9-3z-6Cw"/>
+                            <constraint firstItem="dBw-fO-yz4" firstAttribute="centerX" secondItem="z4t-Mb-ECi" secondAttribute="centerX" id="T2U-TQ-yST"/>
+                            <constraint firstAttribute="trailing" secondItem="dBw-fO-yz4" secondAttribute="trailing" constant="40" id="XK2-mh-N88"/>
+                            <constraint firstAttribute="bottom" secondItem="Sn5-LW-iqA" secondAttribute="bottom" id="Xdg-Lt-isv"/>
+                            <constraint firstAttribute="bottom" secondItem="Ux1-tM-dpn" secondAttribute="bottom" constant="20" id="eSz-rx-R70"/>
+                            <constraint firstItem="7W2-W6-cjX" firstAttribute="leading" secondItem="z4t-Mb-ECi" secondAttribute="leading" constant="20" id="eg7-OX-FYN"/>
+                            <constraint firstItem="Sn5-LW-iqA" firstAttribute="top" secondItem="z4t-Mb-ECi" secondAttribute="top" id="fiq-mR-pZE"/>
+                            <constraint firstItem="rFe-Rq-3AH" firstAttribute="centerX" secondItem="z4t-Mb-ECi" secondAttribute="centerX" id="gmN-9g-Zt0"/>
+                            <constraint firstItem="rFe-Rq-3AH" firstAttribute="top" secondItem="7W2-W6-cjX" secondAttribute="bottom" constant="5" id="leD-d1-ZaO"/>
+                            <constraint firstAttribute="trailing" secondItem="7W2-W6-cjX" secondAttribute="trailing" constant="20" id="nas-di-gKL"/>
+                            <constraint firstItem="Sn5-LW-iqA" firstAttribute="leading" secondItem="z4t-Mb-ECi" secondAttribute="leading" id="oC7-Zz-8Hl"/>
+                            <constraint firstItem="7W2-W6-cjX" firstAttribute="top" secondItem="z4t-Mb-ECi" secondAttribute="top" constant="80" id="oZr-y7-yAO"/>
+                            <constraint firstItem="Ux1-tM-dpn" firstAttribute="top" secondItem="ofs-yV-771" secondAttribute="bottom" constant="4" id="wol-aC-AIO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OQN-yq-7Af"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFE-Re-2oA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1909" y="-17"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pEx-uh-2Gi">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="uSn-hb-bde" customClass="ViewController" customModule="MindEchoLabyrinthX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FRk-Hq-sQC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="9SW-sw-6E1">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="bnV-z5-TSo">
+                                <rect key="frame" x="71.666666666666686" y="306" width="250" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="nfN-RK-0nR"/>
+                                    <constraint firstAttribute="height" constant="240" id="oYc-lV-1vv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1S-7b-mfK">
+                                <rect key="frame" x="40" y="60" width="353" height="241"/>
+                                <string key="text">Welcome to MindEcho LabyrinthX!
+Challenge your mind with puzzles, color swaps, letter matches, and picture rearrangements. Sharpen logic, boost memory, and master every level. Play, think, win! </string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MindEcho LabyrinthX" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="are-3K-Emz">
+                                <rect key="frame" x="40" y="554" width="313" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FhU-w4-yII"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iaj-5i-2fu">
+                                <rect key="frame" x="96.666666666666686" y="762" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.1349672398" green="0.1198064304" blue="0.47682425899999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="egI-YD-SsZ"/>
+                                    <constraint firstAttribute="height" constant="50" id="ytT-Vd-HaH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="28"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Start App"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="uFq-6f-UVg" kind="show" id="scx-5V-06C"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Zgh-82-aYU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="9SW-sw-6E1" secondAttribute="bottom" id="3Ah-3v-4Eg"/>
+                            <constraint firstAttribute="trailing" secondItem="9SW-sw-6E1" secondAttribute="trailing" id="EPA-pn-Cgb"/>
+                            <constraint firstItem="are-3K-Emz" firstAttribute="centerX" secondItem="FRk-Hq-sQC" secondAttribute="centerX" id="Pdp-S6-nSR"/>
+                            <constraint firstItem="iaj-5i-2fu" firstAttribute="centerX" secondItem="FRk-Hq-sQC" secondAttribute="centerX" id="RbV-QK-gYB"/>
+                            <constraint firstItem="H1S-7b-mfK" firstAttribute="leading" secondItem="FRk-Hq-sQC" secondAttribute="leading" constant="40" id="UrY-Dv-BGw"/>
+                            <constraint firstItem="bnV-z5-TSo" firstAttribute="top" secondItem="H1S-7b-mfK" secondAttribute="bottom" constant="5" id="XOR-xR-VyG"/>
+                            <constraint firstItem="are-3K-Emz" firstAttribute="leading" secondItem="Zgh-82-aYU" secondAttribute="leading" constant="40" id="bqJ-4p-ccd"/>
+                            <constraint firstAttribute="trailing" secondItem="are-3K-Emz" secondAttribute="trailing" constant="40" id="evj-KC-PXD"/>
+                            <constraint firstItem="are-3K-Emz" firstAttribute="top" secondItem="bnV-z5-TSo" secondAttribute="bottom" constant="8" id="g0t-Se-ndd"/>
+                            <constraint firstItem="bnV-z5-TSo" firstAttribute="centerY" secondItem="FRk-Hq-sQC" secondAttribute="centerY" id="hbW-1h-pv7"/>
+                            <constraint firstItem="9SW-sw-6E1" firstAttribute="leading" secondItem="FRk-Hq-sQC" secondAttribute="leading" id="jRR-CL-gpB"/>
+                            <constraint firstAttribute="bottom" secondItem="iaj-5i-2fu" secondAttribute="bottom" constant="40" id="lKx-io-QM2"/>
+                            <constraint firstItem="H1S-7b-mfK" firstAttribute="top" secondItem="FRk-Hq-sQC" secondAttribute="top" constant="60" id="sSo-vq-4vq"/>
+                            <constraint firstItem="9SW-sw-6E1" firstAttribute="top" secondItem="FRk-Hq-sQC" secondAttribute="top" id="vG7-JN-HBw"/>
+                            <constraint firstAttribute="trailing" secondItem="H1S-7b-mfK" secondAttribute="trailing" id="wGD-6q-BI1"/>
+                            <constraint firstItem="bnV-z5-TSo" firstAttribute="centerX" secondItem="FRk-Hq-sQC" secondAttribute="centerX" id="zSK-qc-CaB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yvt-Ls-Qsh"/>
+                    <connections>
+                        <outlet property="bgView" destination="iaj-5i-2fu" id="XkO-qx-Ccg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DIk-id-WsX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132.5" y="-35.91549295774648"/>
+        </scene>
+        <!--Laby Shape RotationVC-->
+        <scene sceneID="O9U-6q-pKi">
+            <objects>
+                <viewController storyboardIdentifier="LabyShapeRotationVC" id="gDK-dp-4Ja" customClass="LabyShapeRotationVC" customModule="MindEchoLabyrinthX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wEY-wY-fJG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="2KQ-1h-AwJ">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OZm-MT-sHs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2KQ-1h-AwJ" secondAttribute="trailing" id="Eak-vv-jMS"/>
+                            <constraint firstAttribute="bottom" secondItem="2KQ-1h-AwJ" secondAttribute="bottom" id="P8b-Hi-Hsb"/>
+                            <constraint firstItem="2KQ-1h-AwJ" firstAttribute="leading" secondItem="wEY-wY-fJG" secondAttribute="leading" id="eVQ-Ba-AgW"/>
+                            <constraint firstItem="2KQ-1h-AwJ" firstAttribute="top" secondItem="wEY-wY-fJG" secondAttribute="top" id="fBE-th-1wV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6gt-L0-7K7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s01-pf-mj2" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2648" y="-48"/>
+        </scene>
+        <!--Laby Shape MathVC-->
+        <scene sceneID="oBV-gT-gWU">
+            <objects>
+                <viewController storyboardIdentifier="LabyShapeMathVC" id="p7i-KN-5eF" customClass="LabyShapeMathVC" customModule="MindEchoLabyrinthX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vB3-HE-XeR">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="ygQ-go-xBW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ySJ-8d-mMF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ygQ-go-xBW" firstAttribute="top" secondItem="vB3-HE-XeR" secondAttribute="top" id="0kL-Td-qlk"/>
+                            <constraint firstItem="ygQ-go-xBW" firstAttribute="leading" secondItem="vB3-HE-XeR" secondAttribute="leading" id="46d-Y1-IuN"/>
+                            <constraint firstAttribute="bottom" secondItem="ygQ-go-xBW" secondAttribute="bottom" id="866-Ws-05z"/>
+                            <constraint firstAttribute="trailing" secondItem="ygQ-go-xBW" secondAttribute="trailing" id="m2M-Al-GZH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kl7-Rn-wbV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EcO-TA-2YM" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3436.875" y="-35.91549295774648"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gLG-Jw-6kz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TCh-1h-ccW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hfb-jY-i9R">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uSn-hb-bde" kind="relationship" relationship="rootViewController" id="2cn-NE-mDD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ORD-SM-MOb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.25" y="-34.859154929577464"/>
+        </scene>
+        <!--Laby PrivacyVC-->
+        <scene sceneID="ifU-Xp-isB">
+            <objects>
+                <viewController storyboardIdentifier="LabyPrivacyVC" id="Era-cV-pAr" customClass="LabyPrivacyVC" customModule="MindEchoLabyrinthX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ugm-UO-iON">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZTZ-6H-KU9">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="OT3-iP-Pzf">
+                                <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PBw-8x-KkX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZTZ-6H-KU9" firstAttribute="leading" secondItem="ugm-UO-iON" secondAttribute="leading" id="1BY-Mb-n99"/>
+                            <constraint firstAttribute="bottom" secondItem="ZTZ-6H-KU9" secondAttribute="bottom" id="5nu-hI-Lkb"/>
+                            <constraint firstItem="OT3-iP-Pzf" firstAttribute="centerX" secondItem="ugm-UO-iON" secondAttribute="centerX" id="GK7-MN-n6o"/>
+                            <constraint firstAttribute="trailing" secondItem="ZTZ-6H-KU9" secondAttribute="trailing" id="XrD-o2-Raf"/>
+                            <constraint firstItem="OT3-iP-Pzf" firstAttribute="centerY" secondItem="ugm-UO-iON" secondAttribute="centerY" id="d3Y-kp-IO6"/>
+                            <constraint firstItem="ZTZ-6H-KU9" firstAttribute="top" secondItem="ugm-UO-iON" secondAttribute="top" id="zcE-wH-MbY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KSt-yq-lt3"/>
+                    <connections>
+                        <outlet property="lady_bottomCos" destination="5nu-hI-Lkb" id="QCx-r0-Bsr"/>
+                        <outlet property="lady_indicatorView" destination="OT3-iP-Pzf" id="sNh-YS-YmR"/>
+                        <outlet property="lady_topCos" destination="zcE-wH-MbY" id="K3G-Jl-moD"/>
+                        <outlet property="lady_webView" destination="ZTZ-6H-KU9" id="DkE-ZD-eK6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwS-0o-Gei" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2133.5877862595421" y="773.94366197183103"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="351" height="626"/>
+        <image name="logo" width="998" height="988"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
